@@ -1,0 +1,42 @@
+@startuml
+
+actor User
+
+participant "Client" as C
+participant "Database" as DB
+
+==Auto-select document for editing==
+
+C -> DB: Find document with status 0
+DB -> C: Document found and selected for editing
+C -> DB: Update document\nset status to -1 (locked)
+
+alt Document is unused
+    DB -> C: Document locked for editing
+    C -> User: Document locked for editing
+else Document not found
+    DB -> C: No available documents for editing
+    C -> User: No documents available for editing
+end
+
+== User edits document ==
+
+User -> C: Edit document
+C -> User: Display document for editing
+
+== Finish editing and validate document ==
+
+User -> C: Finish editing and validate document
+C -> DB: Update document\nset status to 1 (validated)
+DB -> C: Document validated
+C -> User: Document validated
+
+== Timeout check ==
+
+User -> C: Timeout check
+C -> DB: Find documents locked for too long
+DB -> C: Documents found
+C -> DB: Update documents\nset status to 0 (unused)
+DB -> C: Documents unlocked
+
+@enduml
