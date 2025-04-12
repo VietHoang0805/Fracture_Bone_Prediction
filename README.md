@@ -58,7 +58,8 @@ You can see input image
 ``` bash
 streamlit run Streamlit/app.py
 ```
-After run [app.py](Streamlit/app.py) you can see UI below:
-![Stremalit App](<Images/UI Streamlit.png>)
+After run [app.py](Streamlit/app.py "Streamlit") you can see UI below:
+
+![StremalitApp](Images/UIStreamlit.png)
 
 You can use [Image Test](Images/Test) or other to test
