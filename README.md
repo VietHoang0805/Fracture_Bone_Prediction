@@ -60,6 +60,6 @@ streamlit run Streamlit/app.py
 ```
 After run [app.py](Streamlit/app.py "Streamlit") you can see UI below:
 
-![StremalitApp](Images/UIStreamlit.png)
+![Streamlit](/Images/UIStreamlit.png "Streamlit")
 
 You can use [Image Test](Images/Test) or other to test
