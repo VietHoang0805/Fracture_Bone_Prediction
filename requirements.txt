@@ -1,5 +1,5 @@
 timm
-steamlit
+streamlit
 numpy
 matplotlib
 torch
