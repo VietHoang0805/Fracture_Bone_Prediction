@@ -1,0 +1,6 @@
+timm
+steamlit
+numpy
+matplotlib
+torch
+scikit-learn
