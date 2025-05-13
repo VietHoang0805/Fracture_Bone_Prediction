@@ -48,7 +48,9 @@ cd Fracture_Bone_Prediction
 
 2. Run the notebook:
 
-Open [ComputerVision.ipynb](ComputerVision.ipynb) in Jupyter Notebook or JupyterLab.
++ Open [Model RESNET18](RESNET-18-Model.ipynb) in Jupyter Notebook or JupyterLab.
+
++ Open [Model VIT](VIT-Model.ipynb) in Jupyter Notebook or JupyterLab.
 
 You can see input image
 
