@@ -65,3 +65,11 @@ Image UI here: [StreamlitUI](/Images/Streamlit.png)
 ![alt text](/Images/Streamlit.png "Streamlit")
 
 You can use [Image Test](Images/Test) or other to test
+
+4. Result model:
+
+
+| Model       | Accuracy (Train) | Accuracy (Test)   |
+| ----------- | ---------------- |-----------------  | 
+| VIT         |   89.14%         |         88.53%    | 
+| RESNET-18   |   94.69%         |         96.25%    |
