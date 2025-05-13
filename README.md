@@ -71,5 +71,5 @@ You can use [Image Test](Images/Test) or other to test
 
 | Model       | Accuracy (Train) | Accuracy (Test)   |
 | ----------- | ---------------- |-----------------  | 
-| VIT         |   89.14%         |         88.53%    | 
-| RESNET-18   |   94.69%         |         96.25%    |
+| VIT         |   89.38%         |     87.35%        | 
+| RESNET-18   |   94.69%         |     96.25%        |
