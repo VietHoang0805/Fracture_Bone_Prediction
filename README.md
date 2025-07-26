@@ -4,6 +4,7 @@ This repository contains a computer vision project implemented in Python using J
 
 
 You can download dataset here [Dataset](https://drive.google.com/drive/folders/1h5lIBfUuc8mnh2PIxwXOUJloqk4ciSMj?usp=sharing)
+Weight model: [Weight](https://drive.google.com/drive/folders/1bHws5HjavQFbnSz0EPteM1r5_Of1ngzF?usp=sharing)
 
 ```
 ├── Streamlit/ # Streamlit app files for the web interface 
@@ -48,9 +49,13 @@ cd Fracture_Bone_Prediction
 
 2. Run the notebook:
 
-+ Open [Model RESNET18](RESNET-18-Model.ipynb) in Jupyter Notebook or JupyterLab.
++ Open [Model RESNET18](resnet-18-reduceoverfit.ipynb) in Jupyter Notebook or JupyterLab.
 
-+ Open [Model VIT](VIT-Model.ipynb) in Jupyter Notebook or JupyterLab.
++ Open [Model VIT](vit-fracture-prediction-newversion.ipynb) in Jupyter Notebook or JupyterLab.
+
++ Open [Model DENSENET](densenet-bone-fracture.ipynb) in Jupyter Notebook or JupyterLab.
+
++ Open [Model MOBILENET](mobilenet-bone-fracture.ipynb) in Jupyter Notebook or JupyterLab.
 
 You can see input image
 
@@ -71,7 +76,9 @@ You can use [Image Test](Images/Test) or other to test
 4. Result model:
 
 
-| Model       | Accuracy (Train) | Accuracy (Test)   |
-| ----------- | ---------------- |-----------------  | 
-| VIT         |   89.38%         |     87.35%        | 
-| RESNET-18   |   94.69%         |     96.25%        |
+| Model     | Accuracy | Precision | Recall | F1 Score |
+|-----------|----------|-----------|--------|----------|
+| ResNet18  | 94.07%   | 94.13%    | 93.98% | 94.04%   |
+| MobileNet | 90.51%   | 90.62%    | 90.36% | 90.45%   |
+| DenseNet  | 98.22%   | 98.20%    | 98.23% | 98.22%   |
+| ViT       | 96.25%   | 96.21%    | 96.27% | 96.23%   |
