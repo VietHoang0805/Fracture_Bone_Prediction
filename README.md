@@ -6,10 +6,6 @@ This repository contains a computer vision project implemented in Python using J
 You can download dataset here [Dataset](https://drive.google.com/drive/folders/1h5lIBfUuc8mnh2PIxwXOUJloqk4ciSMj?usp=sharing)
 Weight model: [Weight](https://drive.google.com/drive/folders/1bHws5HjavQFbnSz0EPteM1r5_Of1ngzF?usp=sharing)
 
-```
-├── Streamlit/ # Streamlit app files for the web interface 
-├── ComputerVision.ipynb # Jupyter Notebook with the main code # This file
-```
 
 ## 📌 Requirements
 
@@ -61,7 +57,14 @@ You can see input image
 
 ![alt text](Images/Untitled.png "Title")
 
-3. Launch the Streamlit app:
+3. Create folder contains weight
+
+``` bash
+cd Fracture_Bone_Prediction/Streamlit
+mkdir Model
+```
+Download [Weight](https://drive.google.com/drive/folders/1bHws5HjavQFbnSz0EPteM1r5_Of1ngzF?usp=sharing) and put weight model
+4. Launch the Streamlit app:
 ``` bash
 streamlit run Streamlit/app.py
 ```
@@ -73,7 +76,7 @@ Image UI here: [StreamlitUI](/Images/Streamlit.png)
 
 You can use [Image Test](Images/Test) or other to test
 
-4. Result model:
+5. Result model:
 
 
 | Model     | Accuracy | Precision | Recall | F1 Score |
