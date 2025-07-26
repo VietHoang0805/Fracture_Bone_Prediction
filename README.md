@@ -64,6 +64,7 @@ cd Fracture_Bone_Prediction/Streamlit
 mkdir Model
 ```
 Download [Weight](https://drive.google.com/drive/folders/1bHws5HjavQFbnSz0EPteM1r5_Of1ngzF?usp=sharing) and put weight model
+
 4. Launch the Streamlit app:
 ``` bash
 streamlit run Streamlit/app.py
