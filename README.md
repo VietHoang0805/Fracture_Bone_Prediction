@@ -1,6 +1,6 @@
 # Fracture_Bone_Prediction
 
-This repository was accepted at GOODTECHS-2025 with title `A Model Fine-tuning Strategy for Fracture Detection from X-ray Images`.
+This repository was accepted at EAI GOODTECHS-2025 indexed in Scopus with title `A Model Fine-tuning Strategy for Fracture Detection from X-ray Images`.
 It contains a computer vision project implemented in Python using Jupyter Notebook and Streamlit for deployment. The goal of this project is to analyze and process images from fracture bone datasets to achieve a specific object detection task 
 
 
